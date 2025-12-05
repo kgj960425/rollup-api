@@ -27,6 +27,10 @@ public class YachtAction implements GameAction {
         return type.name();
     }
 
+    public YachtActionType getActionType() {
+        return type;
+    }
+
     @Override
     public Map<String, Object> toMap() {
         Map<String, Object> map = new HashMap<>();

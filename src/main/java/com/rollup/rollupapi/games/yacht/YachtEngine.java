@@ -61,7 +61,7 @@ public class YachtEngine implements GameEngine {
             return ValidationResult.invalid("현재 당신의 턴이 아닙니다");
         }
 
-        switch (yachtAction.getType()) {
+        switch (yachtAction.getActionType()) {
             case ROLL_DICE:
                 if (yachtState.getRollCount() >= MAX_ROLLS) {
                     return ValidationResult.invalid("더 이상 주사위를 굴릴 수 없습니다 (최대 3회)");
@@ -100,7 +100,7 @@ public class YachtEngine implements GameEngine {
         YachtState yachtState = (YachtState) ((YachtState) state).copy();
         YachtAction yachtAction = (YachtAction) action;
 
-        switch (yachtAction.getType()) {
+        switch (yachtAction.getActionType()) {
             case ROLL_DICE:
                 rollDice(yachtState, yachtAction.getHeldDice());
                 break;

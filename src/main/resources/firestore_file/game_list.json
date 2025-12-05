@@ -1,0 +1,52 @@
+{
+  "yacht_dice": {
+    "displayName": "Yacht Dice",
+    "description": "주사위를 굴려 점수를 얻는 전략 게임",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "estimatedTime": 20,
+    "enabled": true,
+    "sortOrder": 1,
+    "thumbnailUrl": ""
+  },
+  "exploding_kittens": {
+    "displayName": "Exploding Kittens",
+    "description": "폭발하는 고양이를 피하는 카드 게임",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "estimatedTime": 15,
+    "enabled": false,
+    "sortOrder": 3,
+    "thumbnailUrl": ""
+  },
+  "lexio": {
+    "displayName": "Lexio",
+    "description": "타일을 조합하여 족보를 만드는 전략 게임",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "estimatedTime": 30,
+    "enabled": false,
+    "sortOrder": 2,
+    "thumbnailUrl": ""
+  },
+  "seven_wonders_duel": {
+    "displayName": "7 Wonders Duel",
+    "description": "고대 문명을 건설하는 2인 전략 게임",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "estimatedTime": 30,
+    "enabled": false,
+    "sortOrder": 4,
+    "thumbnailUrl": ""
+  },
+  "splendor_duel": {
+    "displayName": "Splendor Duel",
+    "description": "보석을 수집하여 승리하는 2인 전략 게임",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "estimatedTime": 30,
+    "enabled": false,
+    "sortOrder": 5,
+    "thumbnailUrl": ""
+  }
+}
