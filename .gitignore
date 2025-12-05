@@ -38,7 +38,7 @@ out/
 .claude
 
 ### Secrets ###
-src/main/resources/application.yml
 *-firebase-adminsdk-*.json
 firebase-service-account.json
+src/main/resources/application-local.yml
 
