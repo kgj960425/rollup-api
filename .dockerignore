@@ -1,8 +1,0 @@
-.git
-.gitignore
-.idea
-.gradle
-build
-*.md
-*.iml
-firebase-service-account.json
