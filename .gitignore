@@ -36,3 +36,9 @@ out/
 ### VS Code ###
 .vscode/
 .claude
+
+### Secrets ###
+src/main/resources/application.yml
+*-firebase-adminsdk-*.json
+firebase-service-account.json
+
