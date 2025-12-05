@@ -6,7 +6,7 @@ spring:
   datasource:
     url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/rollup}
     username: ${DATABASE_USERNAME:postgres}
-    password: ${DATABASE_PASSWORD:postgres}
+    password: ${DATABASE_PASSWORD:}
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -28,6 +28,7 @@ spring:
 # Firebase 설정
 firebase:
   config-path: ${FIREBASE_CONFIG_PATH:firebase-service-account.json}
+  credentials: ${FIREBASE_CREDENTIALS:}
 
 # CORS 설정
 cors:
@@ -54,7 +55,7 @@ spring:
   jpa:
     show-sql: false
     hibernate:
-      ddl-auto: validate
+      ddl-auto: update
 
 logging:
   level:
